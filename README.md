@@ -2,7 +2,7 @@
 
 A cute little tic-tac-toe game that I made! Check out the demo:
 
-![Demo Video](./demo_video.mpv)
+[Demo Video](https://github.com/user-attachments/assets/3f0a09c6-1150-4ef4-9ac5-96b20a680ff6)
 
 ## How to Play
 
