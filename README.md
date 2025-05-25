@@ -1,4 +1,4 @@
-# Edwin's Tic Tac Toe
+# Cloud Tic Tac Toe
 
 A cute little tic-tac-toe game that I made! Check out the demo:
 
