@@ -1,0 +1,129 @@
+[gd_scene load_steps=12 format=3 uid="uid://d2ua5i70cxylh"]
+
+[ext_resource type="Texture2D" uid="uid://kqm5n4101gsn" path="res://Assets/Clouds/Clouds 1/1.png" id="1_jix8l"]
+[ext_resource type="Texture2D" uid="uid://cvqvyllhx3pye" path="res://Assets/Clouds/Clouds 1/2.png" id="2_glbon"]
+[ext_resource type="Texture2D" uid="uid://71cbep7bwk65" path="res://Assets/Clouds/Clouds 1/3.png" id="3_nlkkf"]
+[ext_resource type="Texture2D" uid="uid://j36n2flssu40" path="res://Assets/Clouds/Clouds 1/4.png" id="4_qe12f"]
+[ext_resource type="FontFile" uid="uid://daq5f8a68l26t" path="res://Assets/Cloudy-0W244.ttf" id="5_glbon"]
+[ext_resource type="AudioStream" uid="uid://cmynsiwrarisx" path="res://Assets/SoupTonic UI1 SFX/SFX_UI_MenuSelections.mp3" id="6_nlkkf"]
+[ext_resource type="Script" uid="uid://bdupalpjjr01q" path="res://multiplayer_2.gd" id="6_qe12f"]
+
+[sub_resource type="GDScript" id="GDScript_06t4h"]
+script/source = "extends Node2D
+"
+
+[sub_resource type="GDScript" id="GDScript_rhts7"]
+script/source = "extends Button
+
+func _on_pressed() -> void:
+	var singletonScene = get_tree().get_nodes_in_group('singleton')[0]
+	singletonScene.play_start()
+
+	get_tree().change_scene_to_file('res://scene_singleplayer.tscn')
+
+
+func _on_button_2_pressed() -> void:
+	get_tree().quit()
+"
+
+[sub_resource type="GDScript" id="GDScript_nlkkf"]
+script/source = "extends Button
+
+func _on_pressed() -> void:
+	var singletonScene = get_tree().get_nodes_in_group('singleton')[0]
+	singletonScene.play_start()
+
+	get_tree().change_scene_to_file('res://scene_multiplayer.tscn')
+
+
+func _on_button_2_pressed() -> void:
+	get_tree().quit()
+"
+
+[sub_resource type="ImageTexture" id="ImageTexture_8qtwp"]
+
+[node name="MainMenu" type="Node2D"]
+script = SubResource("GDScript_06t4h")
+
+[node name="1" type="Sprite2D" parent="."]
+position = Vector2(659.053, 350.532)
+scale = Vector2(2.31193, 2.31193)
+texture = ExtResource("1_jix8l")
+
+[node name="2" type="Sprite2D" parent="."]
+position = Vector2(652.357, 343.97)
+scale = Vector2(2.27142, 2.27142)
+texture = ExtResource("2_glbon")
+
+[node name="3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(731.198, 384.281)
+scale = Vector2(2.02642, 2.02642)
+texture = ExtResource("3_nlkkf")
+
+[node name="4" type="Sprite2D" parent="."]
+position = Vector2(656, 352)
+scale = Vector2(2.32099, 2.32099)
+texture = ExtResource("4_qe12f")
+
+[node name="Singleplayer" type="Button" parent="."]
+offset_left = 368.0
+offset_top = 168.0
+offset_right = 912.0
+offset_bottom = 272.0
+theme_override_fonts/font = ExtResource("5_glbon")
+theme_override_font_sizes/font_size = 60
+text = "Singleplayer"
+script = SubResource("GDScript_rhts7")
+
+[node name="Multiplayer" type="Button" parent="."]
+offset_left = 368.0
+offset_top = 296.0
+offset_right = 904.0
+offset_bottom = 400.0
+theme_override_fonts/font = ExtResource("5_glbon")
+theme_override_font_sizes/font_size = 60
+text = "Multiplayer"
+script = SubResource("GDScript_nlkkf")
+
+[node name="Multiplayer2" type="Button" parent="."]
+offset_left = 376.0
+offset_top = 432.0
+offset_right = 912.0
+offset_bottom = 536.0
+theme_override_fonts/font = ExtResource("5_glbon")
+theme_override_font_sizes/font_size = 60
+text = "Credits"
+script = ExtResource("6_qe12f")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = -32.0
+offset_right = 1360.0
+offset_bottom = 144.0
+theme_override_fonts/normal_font = ExtResource("5_glbon")
+theme_override_font_sizes/normal_font_size = 80
+text = "Edwin's Tic Tac Toe"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button2" type="Button" parent="."]
+offset_left = 464.0
+offset_top = 568.0
+offset_right = 824.0
+offset_bottom = 672.0
+theme_override_fonts/font = ExtResource("5_glbon")
+theme_override_font_sizes/font_size = 60
+text = "Quit"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = SubResource("ImageTexture_8qtwp")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_nlkkf")
+
+[connection signal="pressed" from="Singleplayer" to="Singleplayer" method="_on_pressed"]
+[connection signal="pressed" from="Multiplayer" to="Multiplayer" method="_on_pressed"]
+[connection signal="pressed" from="Multiplayer2" to="Multiplayer2" method="_on_pressed"]
+[connection signal="pressed" from="Button2" to="Singleplayer" method="_on_button_2_pressed"]

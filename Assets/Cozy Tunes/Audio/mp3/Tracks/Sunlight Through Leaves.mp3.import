@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cljin52tu5qpj"
+path="res://.godot/imported/Sunlight Through Leaves.mp3-1f5476e098e5242bccd59bb8dcd0b729.mp3str"
+
+[deps]
+
+source_file="res://Assets/Cozy Tunes/Audio/mp3/Tracks/Sunlight Through Leaves.mp3"
+dest_files=["res://.godot/imported/Sunlight Through Leaves.mp3-1f5476e098e5242bccd59bb8dcd0b729.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

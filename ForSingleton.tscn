@@ -1,0 +1,53 @@
+[gd_scene load_steps=7 format=3 uid="uid://bmm0vxbsbc6w3"]
+
+[ext_resource type="AudioStream" uid="uid://cjmpvixe1f0m0" path="res://Assets/Cozy Tunes/Audio/mp3/Tracks/Cuddle Clouds.mp3" id="1_s8edy"]
+[ext_resource type="AudioStream" uid="uid://c3o2401f378f4" path="res://Assets/SoupTonic UI1 SFX/SFX_UI_Confirm.mp3" id="2_bvavi"]
+[ext_resource type="AudioStream" uid="uid://dpukmnee8n5tg" path="res://Assets/SoupTonic UI1 SFX/SFX_UI_CloseMenu.mp3" id="3_40ldr"]
+[ext_resource type="AudioStream" uid="uid://bythnagohgxch" path="res://Assets/SoupTonic UI1 SFX/SFX_UI_Saved.mp3" id="4_ffuuj"]
+[ext_resource type="AudioStream" uid="uid://bqp2tkbgpg6qi" path="res://Assets/SoupTonic UI1 SFX/SFX_UI_Exit.mp3" id="5_em8hd"]
+
+[sub_resource type="GDScript" id="GDScript_s8edy"]
+script/source = "extends Node2D
+
+func _ready():
+	add_to_group('singleton')
+
+func play_start():
+	get_node('AudioStreamPlayer2D-start').play()
+
+func play_exit():
+	get_node('AudioStreamPlayer2D-exit').play()
+
+func play_happy():
+	get_node('AudioStreamPlayer2D-saved').play()
+
+func play_sad():
+	get_node('AudioStreamPlayer2D-exit2').play()
+"
+
+[node name="ForSingleton" type="Node2D"]
+script = SubResource("GDScript_s8edy")
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(242.581, 215.2)
+stream = ExtResource("1_s8edy")
+autoplay = true
+
+[node name="AudioStreamPlayer2D-start" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(242.581, 215.2)
+stream = ExtResource("2_bvavi")
+volume_db = -6.0
+
+[node name="AudioStreamPlayer2D-exit" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(485.163, 430.401)
+stream = ExtResource("3_40ldr")
+volume_db = -6.0
+
+[node name="AudioStreamPlayer2D-saved" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(970.326, 860.802)
+stream = ExtResource("4_ffuuj")
+
+[node name="AudioStreamPlayer2D-exit2" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(1940.65, 1721.6)
+stream = ExtResource("5_em8hd")
+volume_db = 20.0

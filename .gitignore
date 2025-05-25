@@ -1,0 +1,8 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+*.exe
+*.x86_64
+*.wasm
+Tic Tac Toe.*
+/Assets/Cloudy-0W244*
