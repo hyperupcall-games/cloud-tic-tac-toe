@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://w6yuhln48d3h" path="res://Assets/Clouds/Clouds 2/2.png" id="3_qb6pm"]
 [ext_resource type="Texture2D" uid="uid://dhnbvut2tji1v" path="res://Assets/Clouds/Clouds 2/3.png" id="4_3w3ax"]
 [ext_resource type="Texture2D" uid="uid://cy27wlrsm65s2" path="res://Assets/Clouds/Clouds 2/4.png" id="5_kaimy"]
-[ext_resource type="FontFile" uid="uid://daq5f8a68l26t" path="res://Assets/Cloudy-0W244.ttf" id="6_q1lt4"]
+[ext_resource type="Theme" uid="uid://bdhje621ebo45" path="res://main_menu.tres" id="6_0jmqy"]
 [ext_resource type="Script" uid="uid://v424ghwipaor" path="res://grid.gd" id="7_xtyaw"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_6e45b"]
@@ -54,7 +54,7 @@ offset_left = 40.0
 offset_top = 48.0
 offset_right = 819.0
 offset_bottom = 180.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 100
 text = "Tic Tac Toe"
 
@@ -69,7 +69,7 @@ color = Color(0.431373, 0.294118, 0.623529, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_6e45b")
 script = ExtResource("7_xtyaw")
@@ -85,7 +85,7 @@ color = Color(0.431373, 0.294118, 0.623529, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e35lh")
 script = ExtResource("7_xtyaw")
@@ -101,7 +101,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_udeyl")
 script = ExtResource("7_xtyaw")
@@ -117,7 +117,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_miq82")
 script = ExtResource("7_xtyaw")
@@ -133,7 +133,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_j5hk1")
 script = ExtResource("7_xtyaw")
@@ -149,7 +149,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_ueiaa")
 script = ExtResource("7_xtyaw")
@@ -165,7 +165,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_daj04")
 script = ExtResource("7_xtyaw")
@@ -181,7 +181,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_daj04")
 script = ExtResource("7_xtyaw")
@@ -197,7 +197,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_daj04")
 script = ExtResource("7_xtyaw")
@@ -207,7 +207,7 @@ offset_left = 473.0
 offset_top = 224.0
 offset_right = 706.0
 offset_bottom = 310.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 70
 
 [node name="GoodJobStatus" type="Label" parent="."]
@@ -215,7 +215,7 @@ offset_left = 478.0
 offset_top = 324.0
 offset_right = 655.0
 offset_bottom = 364.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 32
 
 [node name="Back" type="Button" parent="."]
@@ -223,7 +223,7 @@ offset_left = 891.0
 offset_top = 600.0
 offset_right = 1271.0
 offset_bottom = 703.0
-theme_override_fonts/font = ExtResource("6_q1lt4")
+theme = ExtResource("6_0jmqy")
 theme_override_font_sizes/font_size = 64
 text = "Go Back"
 script = SubResource("GDScript_po0ka")

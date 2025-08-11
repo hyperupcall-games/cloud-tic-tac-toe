@@ -13,7 +13,7 @@ config_version=5
 config/name="Tic Tac Toe"
 run/main_scene="uid://d2ua5i70cxylh"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="uid://boxsxf48rji5p"
 
 [autoload]
 

@@ -1,6 +1,5 @@
 [gd_scene load_steps=21 format=3 uid="uid://cxc4l1ld81bj0"]
 
-[ext_resource type="FontFile" uid="uid://daq5f8a68l26t" path="res://Assets/Cloudy-0W244.ttf" id="1_cdx3a"]
 [ext_resource type="Script" uid="uid://cbm4s6u2f06s6" path="res://scene_multiplayer.gd" id="1_xh63i"]
 [ext_resource type="Texture2D" uid="uid://bi2gul2mbmcye" path="res://Assets/Clouds/Clouds 2/1.png" id="2_ebqdv"]
 [ext_resource type="Texture2D" uid="uid://w6yuhln48d3h" path="res://Assets/Clouds/Clouds 2/2.png" id="3_wrpju"]
@@ -10,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://cif5qqfpqbvic" path="res://Assets/Clouds/Clouds 5/1.png" id="8_qakgn"]
 [ext_resource type="Texture2D" uid="uid://cqrpiuf6ggxq1" path="res://Assets/Clouds/Clouds 5/2.png" id="9_4wvux"]
 [ext_resource type="Texture2D" uid="uid://dgl0vqidby4lk" path="res://Assets/Clouds/Clouds 5/3.png" id="10_oux3b"]
+[ext_resource type="Theme" uid="uid://bdhje621ebo45" path="res://main_menu.tres" id="11_4wvux"]
 [ext_resource type="Texture2D" uid="uid://l1c0ai1cu0ti" path="res://Assets/Clouds/Clouds 5/4.png" id="11_dgbkm"]
 [ext_resource type="Texture2D" uid="uid://cofxw8ijm8bof" path="res://Assets/Clouds/Clouds 5/5.png" id="12_srpdw"]
 
@@ -87,7 +87,7 @@ offset_left = 40.0
 offset_top = 48.0
 offset_right = 819.0
 offset_bottom = 180.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 100
 text = "Tic Tac Toe"
 
@@ -102,7 +102,7 @@ color = Color(0.431373, 0.294118, 0.623529, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_6e45b")
 script = ExtResource("7_77b82")
@@ -118,7 +118,7 @@ color = Color(0.431373, 0.294118, 0.623529, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_e35lh")
 script = ExtResource("7_77b82")
@@ -134,7 +134,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_udeyl")
 script = ExtResource("7_77b82")
@@ -150,7 +150,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_miq82")
 script = ExtResource("7_77b82")
@@ -166,7 +166,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_j5hk1")
 script = ExtResource("7_77b82")
@@ -182,7 +182,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_ueiaa")
 script = ExtResource("7_77b82")
@@ -198,7 +198,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_daj04")
 script = ExtResource("7_77b82")
@@ -214,7 +214,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_daj04")
 script = ExtResource("7_77b82")
@@ -230,7 +230,7 @@ color = Color(0.431373, 0.293738, 0.622586, 1)
 layout_mode = 0
 offset_right = 128.0
 offset_bottom = 128.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 theme_override_styles/focus = SubResource("StyleBoxEmpty_daj04")
 script = ExtResource("7_77b82")
@@ -240,7 +240,7 @@ offset_left = 473.0
 offset_top = 224.0
 offset_right = 706.0
 offset_bottom = 310.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 70
 
 [node name="TurnStatus" type="Label" parent="."]
@@ -248,7 +248,7 @@ offset_left = 48.0
 offset_top = 624.0
 offset_right = 480.0
 offset_bottom = 684.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 48
 text = "Edwin's Turn"
 
@@ -257,15 +257,15 @@ offset_left = 478.0
 offset_top = 324.0
 offset_right = 655.0
 offset_bottom = 364.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
-theme_override_font_sizes/font_size = 32
+theme = ExtResource("11_4wvux")
+theme_override_font_sizes/font_size = 50
 
 [node name="Back" type="Button" parent="."]
 offset_left = 891.0
 offset_top = 600.0
 offset_right = 1271.0
 offset_bottom = 703.0
-theme_override_fonts/font = ExtResource("1_cdx3a")
+theme = ExtResource("11_4wvux")
 theme_override_font_sizes/font_size = 64
 text = "Go Back"
 script = SubResource("GDScript_po0ka")

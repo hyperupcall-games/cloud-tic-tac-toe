@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cvqvyllhx3pye" path="res://Assets/Clouds/Clouds 1/2.png" id="2_glbon"]
 [ext_resource type="Texture2D" uid="uid://71cbep7bwk65" path="res://Assets/Clouds/Clouds 1/3.png" id="3_nlkkf"]
 [ext_resource type="Texture2D" uid="uid://j36n2flssu40" path="res://Assets/Clouds/Clouds 1/4.png" id="4_qe12f"]
-[ext_resource type="FontFile" uid="uid://daq5f8a68l26t" path="res://Assets/Cloudy-0W244.ttf" id="5_glbon"]
+[ext_resource type="Theme" uid="uid://bdhje621ebo45" path="res://main_menu.tres" id="5_qe12f"]
 [ext_resource type="AudioStream" uid="uid://cmynsiwrarisx" path="res://Assets/SoupTonic UI1 SFX/SFX_UI_MenuSelections.mp3" id="6_nlkkf"]
 [ext_resource type="Script" uid="uid://bdupalpjjr01q" path="res://multiplayer_2.gd" id="6_qe12f"]
 
@@ -71,7 +71,7 @@ offset_left = 368.0
 offset_top = 168.0
 offset_right = 912.0
 offset_bottom = 272.0
-theme_override_fonts/font = ExtResource("5_glbon")
+theme = ExtResource("5_qe12f")
 theme_override_font_sizes/font_size = 60
 text = "Singleplayer"
 script = SubResource("GDScript_rhts7")
@@ -81,7 +81,7 @@ offset_left = 368.0
 offset_top = 296.0
 offset_right = 904.0
 offset_bottom = 400.0
-theme_override_fonts/font = ExtResource("5_glbon")
+theme = ExtResource("5_qe12f")
 theme_override_font_sizes/font_size = 60
 text = "Multiplayer"
 script = SubResource("GDScript_nlkkf")
@@ -91,7 +91,7 @@ offset_left = 376.0
 offset_top = 432.0
 offset_right = 912.0
 offset_bottom = 536.0
-theme_override_fonts/font = ExtResource("5_glbon")
+theme = ExtResource("5_qe12f")
 theme_override_font_sizes/font_size = 60
 text = "Credits"
 script = ExtResource("6_qe12f")
@@ -100,7 +100,7 @@ script = ExtResource("6_qe12f")
 offset_left = -32.0
 offset_right = 1360.0
 offset_bottom = 144.0
-theme_override_fonts/normal_font = ExtResource("5_glbon")
+theme = ExtResource("5_qe12f")
 theme_override_font_sizes/normal_font_size = 80
 text = "Edwin's Tic Tac Toe"
 horizontal_alignment = 1
@@ -111,7 +111,7 @@ offset_left = 464.0
 offset_top = 568.0
 offset_right = 824.0
 offset_bottom = 672.0
-theme_override_fonts/font = ExtResource("5_glbon")
+theme = ExtResource("5_qe12f")
 theme_override_font_sizes/font_size = 60
 text = "Quit"
 

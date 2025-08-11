@@ -1,0 +1,6 @@
+[gd_resource type="Theme" load_steps=2 format=3 uid="uid://bdhje621ebo45"]
+
+[ext_resource type="FontFile" uid="uid://c1ljmre7dupdh" path="res://Assets/Rubik_Spray_Paint/RubikSprayPaint-Regular.ttf" id="1_qcqu0"]
+
+[resource]
+default_font = ExtResource("1_qcqu0")
