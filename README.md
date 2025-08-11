@@ -6,8 +6,8 @@ A cute little tic-tac-toe game that I made! Check out the demo:
 
 ## How to Play
 
-Visit the website for this repository.
+**Web Version:** https://hyperupcall-games.github.io/cloud-tic-tac-toe/
 
-Open this directory with [Godot](https://godotengine.org) and then hit play or export as a native executable.
+**Local Version** Open this directory with [Godot](https://godotengine.org) and then hit play or export as a native executable.
 
-Note that the demo video shows an earlier version that used [this cloudy font](https://www.fontspace.com/cloudy-font-f110118). Since the license forbade distributing without purchasing, I switched to a different fontface so that the game is playable by all.
+Note that the demo video shows an earlier version that used [this cloudy fontface](https://www.fontspace.com/cloudy-font-f110118). Since the license forbade distributing without purchasing, I switched to a different fontface so that the game is playable by all.
